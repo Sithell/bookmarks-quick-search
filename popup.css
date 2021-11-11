@@ -1,12 +1,24 @@
+/* Colors */
+:root {
+  --main-bg-color: #202020;
+  --hr-bg: rgba(172, 172, 172, 0.2);
+  --input-border: rgba(33, 33, 33, 0.2);
+  --andMore: lightgray;
+  --bookmarkShortcut: gray;
+  --bookmarkPath: #86AFF1;
+  color-scheme: dark;
+}
+
 body {
   font-size: medium;
   min-width: 300px;
   max-width: 300px;
+  background-color: var(--main-bg-color);
 }
 hr {
   border: none;
   height: 1px;
-  background-color: rgba(172, 172, 172, 0.2);
+  background-color: var(--hr-bg);
 }
 img {
   height: 100%;
@@ -30,7 +42,7 @@ input {
   outline: none;
   width: 90%;
   border-radius: 5px;
-  border-color: rgba(33, 33, 33, 0.2);
+  border-color: var(--input-border);
   padding: 0 10px;
 }
 span {
@@ -50,7 +62,7 @@ span {
 
 .andMore {
   cursor: default;
-  color: lightgray;
+  color: var(--andMore);
 }
 
 .bookmarkTitle {
@@ -58,10 +70,10 @@ span {
 }
 
 .bookmarkShortcut {
-  color: gray;
+  color: var(--bookmarkShortcut);
 }
 
 .bookmarkPath {
   font-size: small;
-  color: blue;
+  color: var(--bookmarkPath);
 }
