@@ -1,6 +1,6 @@
 /* Colors */
 :root {
-  --main-bg-color: #202020;
+  --main-bg-color: #202124;
   --hr-bg: rgba(172, 172, 172, 0.2);
   --input-border: rgba(33, 33, 33, 0.2);
   --andMore: lightgray;
@@ -29,6 +29,7 @@ img {
   max-height: 405px;
   height: fit-content;
   overflow: scroll;
+  overflow-x: hidden;
 }
 #root > div {
   padding: 0 8px 0 8px;
